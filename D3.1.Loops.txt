@@ -1,0 +1,65 @@
+1.JSON literate over all for loops(for in, for of, forEach,for)
+
+JSON Object:
+const jsData = {
+  name: "bella",
+  age: 25,
+  email: "bella@home.com"
+};
+
+      1.1.Using a "for...in" loop:
+            for (const key in jsData) {
+                console.log(key + ": " + jsData[key]);
+                }
+           OUTPUT:
+              name: John Doe
+              age: 25
+              email: bella@home.com
+
+      1.2.Using a "for...of loop" (for an array):     
+             const jsonArray = [1, 2, 3, 4, 5];
+     
+             for (const value of jsonArray) {
+                console.log(value);
+                }
+           OUTPUT:
+              1
+              2
+              3
+              4
+              5
+      1.3.Using a "forEach" loop (for an array):
+            const jsonArray = [1, 2, 3, 4, 5];
+
+            jsonArray.forEach((value) => {
+                 console.log(value);
+            });
+          OUTPUT:
+             1
+             2
+             3
+             4
+             5
+      1.4.Using a "for" loop (for an array):
+             const jsonArray = [1, 2, 3, 4, 5];
+
+             for (let i = 0; i < jsonArray.length; i++) {
+                console.log(jsonArray[i]);
+             }
+           OUTPUT:
+             1
+             2
+             3
+             4
+             5
+
+
+
+
+
+
+
+
+ 
+
+

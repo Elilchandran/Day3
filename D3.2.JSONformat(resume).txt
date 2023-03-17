@@ -1,0 +1,59 @@
+2.JSON format(RESUME):
+"Personal Details":{
+  "name": "Bella",
+  "email": "bella@home.com",
+  "phone": "9876543210",
+  "address": {
+     "street": "123 Main Street",
+     "city": "Anytown",
+     "state": "TamilNadu",
+     "pin code": "600 001"
+  },
+  "summary": "I am a highly motivated software engineer with a strong background in web development.",
+  "education": [
+    {
+      "Degree": "Bachelor of Commerce",
+      "Institution": "University of XXXX",
+      "Location": "TamilNadu, AnyTown",
+      "Year": "2015-2018"
+    },
+    {
+      "Degree": "Master of Commerce",
+      "Institution": "University of XXXX",
+      "Location": "TamilNadu, AnyTown",
+      "Year": "2018-2020"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Software Engineer",
+      "company": "YYYY",
+      "location": "TamilNadu",
+      "Experience":1yrs,
+      "responsibilities": [
+        "Developed new features.",
+        "Optimized search algorithms to improve search results and reduce delay.",
+        "Collaborated with teams to develop and deploy new products."
+      ]
+    },
+    {
+      "position": "Front-End Developer",
+      "company": "zzzz",
+      "location": "TamilNadu",
+      "responsibilities": [
+        "Built and maintained zzzz's React-based web application.",
+        "Worked closely with designers and product managers to implement new features.",
+        "Optimized web performance and accessibility using best practices and tools."
+      ]
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "HTML",
+    "CSS"
+  ]
+}
+
+
